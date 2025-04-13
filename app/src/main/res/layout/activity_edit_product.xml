@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Image -->
+    <ImageView
+        android:id="@+id/editProductImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/placeholder" />
+
+    <!-- Change Image Button -->
+    <Button
+        android:id="@+id/changeImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Image" />
+
+    <!-- Product Name -->
+    <EditText
+        android:id="@+id/editProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Name" />
+
+    <!-- Product Price -->
+    <EditText
+        android:id="@+id/editProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price ($)" />
+
+    <!-- Product Description -->
+    <EditText
+        android:id="@+id/editProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description" />
+
+    <!-- Mark as Sold Out -->
+    <Switch
+        android:id="@+id/markAsSoldOutSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Sold Out" />
+
+    <!-- Save Changes Button -->
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+</LinearLayout>

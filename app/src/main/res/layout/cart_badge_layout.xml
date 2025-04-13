@@ -1,0 +1,25 @@
+<!-- res/layout/cart_badge_layout.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cart_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_shopping_cart" />
+
+    <TextView
+        android:id="@+id/cart_badge"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignEnd="@id/cart_icon"
+        android:layout_alignTop="@id/cart_icon"
+        android:layout_marginTop="-5dp"
+        android:layout_marginEnd="-5dp"
+        android:background="@drawable/badge_background"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:visibility="gone" />
+</RelativeLayout>
